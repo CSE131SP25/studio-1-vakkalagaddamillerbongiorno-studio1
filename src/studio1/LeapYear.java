@@ -8,6 +8,6 @@ public class LeapYear {
 		System.out.println("Choose a year: ");
 		int year = in.nextInt();
 		boolean isLeapYear = year%4 == 0 && !(year%100 == 0)|| year%400 == 0;
-		System.out.print("Is the entered year a leap year: " + isLeapYear);
+		System.out.print("is the entered year a leap year: " + isLeapYear);
 	}
 }
